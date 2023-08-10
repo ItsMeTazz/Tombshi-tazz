@@ -1,0 +1,9 @@
+When adding/deploying new contracts: 
+- need to update config.ts
+- update deployments.mainnet.json with contract address and ABI if it changeSliderValue
+- Farms.js to add/remove farms
+- TombFinance.ts => getTokenPrice. In this function, contract address like I did for: 
+     if (tokenContract.symbol === 'TOMBSHI') {
+        finalURL += '0x56fb9d8c3c84dd0c4bb59a157e24a882ddab519a';
+      }
+- in FarmCard.tsx, add to the depositTokenIcon to add images
