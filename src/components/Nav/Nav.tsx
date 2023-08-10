@@ -16,8 +16,6 @@ import useTotalValueLocked from '../../hooks/useTotalValueLocked';
 import useTombStats from '../../hooks/useTombStats';
 import useNrwlStats from '../../hooks/useNrwlStats';
 import CountUp from 'react-countup';
-import { getDisplayBalance } from '../../utils/formatBalance';
-import { BigNumber } from 'ethers';
 import useShareStats from '../../hooks/usetShareStats';
 
 const useStyles = makeStyles((theme) => ({
